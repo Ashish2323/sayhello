@@ -2,9 +2,6 @@
 # SayHello v1.0
 # coded by: github.com/thelinuxchoice/sayhello
 # Twitter: @linux_choice
-# Using Recorderjs by: https://github.com/mattdiamond/Recorderjs
-trap 'printf "\n";stop' 2
-
 null="> /dev/null 2>&1"
 if [[ $1 == "-v" ]];then
 null=""
